@@ -30,3 +30,7 @@ This project allows users to calculate their Body Mass Index (BMI) by entering t
 - **Object-Oriented Structure**: C# encourages object-oriented programming, which can help in organizing and structuring the BMI calculator code more effectively.
 - **Cross-Platform with .NET Core**: With .NET Core, C# can run on multiple operating systems, including Windows, macOS, and Linux, making it suitable for this project.
 - **Performance**: C# is a compiled language, and its performance is typically better for larger applications, even though the BMI calculator is relatively simple.
+
+
+
+Students:Kayra Yılmaz Beyza Özcan  Abdullah Acar

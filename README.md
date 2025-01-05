@@ -57,4 +57,4 @@ The **BMI Calculator** project allows users to calculate their Body Mass Index (
 
 ---
 
-## 📂 File Structure
+

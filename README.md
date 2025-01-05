@@ -1,36 +1,61 @@
 # BMI Calculator
 
-## Project Overview
-This project allows users to calculate their Body Mass Index (BMI) by entering their height, weight, age, gender, and activity level to better understand their health and fitness status. The goal of this project is to help users understand their BMI and provide personalized health suggestions, such as fitness and nutrition tips, based on their results. The tool is developed in Python, JavaScript, and C#, making it accessible for different environments and platforms.
+## 📋 Project Overview
+The **BMI Calculator** project allows users to calculate their Body Mass Index (BMI) and better understand their health and fitness status. By entering their height, weight, age, gender, and activity level, users receive personalized health suggestions, fitness tips, and motivational messages based on their results. The project is implemented in **Python**, **JavaScript**, and **C#**, making it accessible across different platforms.
 
-## Features
-- **Comprehensive Input**: Users can enter height, weight, age, gender, and activity level to get a personalized BMI analysis.
-- **Advanced BMI Calculation**:
-   ### BMI Categories:
-   - **Underweight**: BMI < 18.5
-   - **Normal weight**: 18.5 ≤ BMI < 24.9
-   - **Overweight**: 25 ≤ BMI < 29.9
-   - **Obese**: BMI ≥ 30
-- **Health Recommendations**: Based on the user's input, the app may suggest health and fitness recommendations, such as dietary changes, exercise routines, or weight management tips.
-- **Cross-Platform Support**: Developed in Python, JavaScript, and C#, making the BMI calculator accessible on various operating systems (Windows, macOS, Linux) for maximum compatibility.
+---
 
-## Languages Features
+## 🚀 Features
+### 1. BMI Calculation
+- Computes BMI based on user inputs: weight, height, age, gender, and activity level.
+- Categorizes BMI into the following categories:
+  - **Underweight**
+  - **Normal weight**
+  - **Overweight**
+  - **Obese**
 
-### Why Python for this project?
-- **Ease of Use**: Python's syntax is clear and beginner-friendly, making it easy to implement the BMI calculation in just a few lines of code.
-- **Built-in Functions**: Python has powerful built-in functions for handling user input and performing mathematical operations without the need for additional libraries.
-- **Cross-Platform**: Python is cross-platform, so the BMI calculator can run on Windows, macOS, and Linux.
+### 2. LLM-Powered Personalized Recommendations
+- Provides health and diet suggestions for each BMI category using LLM-generated content.
 
-### Why JavaScript for this project?
-- **Common Language**: JavaScript is widely used and familiar to many developers. Using it for terminal-based apps (via Node.js) allows developers to easily transition between web and CLI applications.
-- **Event-Driven**: Node.js provides non-blocking, event-driven architecture, allowing for fast and efficient handling of user input in terminal applications.
-- **Cross-Platform**: Node.js allows JavaScript to be run on any operating system, similar to Python.
+### 3. Motivational Messages
+- Displays short, personalized motivational quotes for each BMI category.
 
-### Why C# for this project?
-- **Object-Oriented Structure**: C# encourages object-oriented programming, which can help in organizing and structuring the BMI calculator code more effectively.
-- **Cross-Platform with .NET Core**: With .NET Core, C# can run on multiple operating systems, including Windows, macOS, and Linux, making it suitable for this project.
-- **Performance**: C# is a compiled language, and its performance is typically better for larger applications, even though the BMI calculator is relatively simple.
+### 4. Calorie Calculation
+- Estimates daily caloric needs using the **Harris-Benedict formula**, considering the user's activity levels.
 
+### 5. Data Persistence
+- Saves user data in a `history.json` file.
+- Allows users to view their past records for tracking progress.
 
+### 6. Interactive User Experience
+- User-friendly interface with:
+  - Clear prompts
+  - Input validation
+  - A loop for recalculations and reusability
 
-Students:Kayra Yılmaz Beyza Özcan  Abdullah Acar
+### 7. ASCII Art Display
+- Unique feature to visually represent BMI categories for better engagement.
+
+---
+
+## 💻 Languages and Frameworks
+
+### Why **Python** for this project?
+- **Ease of Use:** Beginner-friendly syntax for quick implementation.
+- **Built-in Functions:** Handles user input and math operations effectively.
+- **Cross-Platform:** Runs seamlessly on Windows, macOS, and Linux.
+
+### Why **JavaScript** for this project?
+- **Common Language:** Widely used, making it familiar for most developers.
+- **Event-Driven:** Non-blocking, fast user input handling via Node.js.
+- **Cross-Platform:** Supported on all major operating systems.
+
+### Why **C#** for this project?
+- **Object-Oriented Structure:** Organizes and structures code effectively.
+- **Cross-Platform:** Supported by .NET Core for Windows, macOS, and Linux.
+- **Performance:** Compiled language with optimized performance for applications.
+
+---
+
+## 📂 File Structure
+
